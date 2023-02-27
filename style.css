@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 80vw;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+    display: flex;
+    height: 1vh;
+}
+.navbar li {
+    list-style-type: none;
+    margin: 2vw 1vw 0 0;
+}
+section-1{
+    height: 50vh;
+}
+.top-left{
+    width: 50vw;
+}
+.top-right{
+    width: 50%;
+}
+
+.top-left{
+    width: 50%;
+    height: 45vh;
+}
+.top-right{
+    width: 50%;
+    height: 45vh;
+}
+.dumbleimg{
+    height: 10vh;
+}
+.img1{
+    height: 40vh;
+}
+
+section-2{
+    height: 80vh;  
+}
+
+.box-design1{
+    border: solid rgb(91, 91, 234);
+    color: rgb(91, 91, 234);
+}
+
+.box-design2{
+    border: solid rgb(234, 104, 57);
+    color: rgb(234, 104, 57);
+}
+.box-design3{
+    border: solid rgb(100, 212, 31);
+    color: rgb(100, 212, 31);
+}
+.box-design4{
+    border: solid rgb(239, 93, 93);
+    color: rgb(239, 93, 93);
+}
+
+.list{
+    list-style:none;
+    margin: 3vh 0;
+    color: black;
+    font-size: large;
+    line-height: 3vh;
+}
+.check{
+    color:  rgb(91, 91, 234);
+}
+.check1{
+    color:  rgb(234, 104, 57);
+}
+.check2{
+    color:  rgb(100, 212, 31);
+}
+.check3{
+    color:  rgb(239, 93, 93);
+}
+.btn1{
+    padding: 0.7vw 1vw;
+    font-weight: bold;
+    color: white;
+    background-color:rgb(91, 91, 234);;
+    border-radius: 1vw;
+    cursor: pointer;
+}
+.btn2{
+    padding: 0.7vw 1vw;
+    font-weight: bold;
+    color: white;
+    background-color:rgb(234, 104, 57);;
+    border-radius: 1vw;
+    cursor: pointer;
+}
+.btn3{
+    padding: 0.7vw 1vw;
+    font-weight: bold;
+    color: white;
+    background-color:rgb(100, 212, 31);;
+    border-radius: 1vw;
+    cursor: pointer;
+}
+.btn4{
+    padding: 0.7vw 1vw;
+    font-weight: bold;
+    color: white;
+    background-color:rgb(239, 93, 93);;
+    border-radius: 1vw;
+    cursor: pointer;
+}
+
+section-3{
+    height: 100vh; 
+    margin: 5vh 0;
+}
+.gym-img{
+    display:inline-flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.images{
+    margin: 6vh 0.125vw 0 0.125vw;
+}
+footer{
+    margin: 10vh 0;
+    height: 8vh;
+    background-color: rgb(194, 192, 197);
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 3vh;
+}

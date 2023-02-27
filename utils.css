@@ -1,0 +1,58 @@
+.min-h-screen{
+    min-height: 100vh;
+}
+.mx-auto{
+    margin-left: auto;
+    margin-right: auto;
+}
+.flex{
+    display: flex;
+}
+.flex-col{
+    flex-direction: column;
+}
+.item-center{
+    align-items: center;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.justify-center{
+    justify-content: center;
+}
+.f-size{
+    font-size: xx-large;
+}
+.f1-size{
+    font-size: large;
+}
+.font-bold{
+    font-weight: bolder;
+}
+.my-1{
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+.my-2{
+    margin-top: 6vh;
+    margin-bottom: 2vh;
+}
+.px-1{
+    padding-left:2vh;
+    padding-right:2vh;
+}
+.btn{
+    padding: 0.5vw 1vw;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    border-radius: 1vw;
+    cursor: pointer;
+}
+.box{
+    margin: 1vw;
+    min-width: 20vw;
+    text-align: center;
+}
+
+
